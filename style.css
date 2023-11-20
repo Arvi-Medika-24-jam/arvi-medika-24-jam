@@ -7,12 +7,12 @@ body {
 }
 
 .nav-item .nav-link {
-    color: #321E1E;
+    color: #fff;
     margin: 0 40px;
 }
 
 .nav-item .nav-link.active {
-    color: #FF6666;
+    color: #FF3131;
     font-weight: 800;
 }
 
@@ -30,10 +30,10 @@ body {
 }
 
 #hero {
-    height: 70vh;
+    height: 60vh;
     background: url("./assets/hero-bg.svg") center/contain, linear-gradient(90deg,
-            #F99A9A,
-            #FCAEAE);
+            #CE0E0E,
+            #FF3131);
     background-position: top;
     background-size: auto;
 }
@@ -41,8 +41,8 @@ body {
 #footer {
     min-height: 30vh;
     background: url("./assets/hero-bg.svg") center/contain, linear-gradient(90deg,
-            #F99A9A,
-            #FCAEAE);
+            #CE0E0E,
+            #FF3131);
     background-position: top;
     background-size: auto;
 }
@@ -72,8 +72,8 @@ iframe {
 
 
 #send-button {
-    color: #321E1E;
-    background-color: #FCAEAE;
+    color: #fff;
+    background-color: #CE0E0E;
     padding: 0 50px;
     height: 50px;
     position: absolute;
@@ -86,7 +86,7 @@ iframe {
 }
 
 .leading-text {
-    color: #FF6666;
+    color: #CE0E0E;
     font-weight: 800;
 }
 
@@ -166,7 +166,7 @@ iframe {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #FF6666;
+    background: #CE0E0E;
 }
 
 /* Handle on hover */
@@ -181,8 +181,8 @@ iframe {
 #testimonial-section-v3 {
     /* background-color: #181230; */
     background: linear-gradient(90deg,
-            #F99A9A,
-            #FCAEAE);
+            #CE0E0E,
+            #FF3131);
     height: auto;
     margin: 50px 0 100px;
     overflow: hidden;
@@ -343,7 +343,7 @@ iframe {
 }
 
 #testimonial-section-v3 .testimonial-role {
-    color: #999aa4;
+    color: #FF3131;
     font-size: 12px;
     font-weight: 300;
     line-height: 18px
@@ -363,7 +363,7 @@ iframe {
 }
 
 .testimonials .role {
-    color: #999aa4;
+    color: #FF3131;
     font-size: 16px;
     font-weight: 300;
     margin-top: 4px
